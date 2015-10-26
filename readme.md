@@ -1,9 +1,12 @@
 Instrucciones:
 
 configurar .env (ver .env.example) <br/>
-	-Database
 
-DEFAULT_SEDE: 
+<ul>
+<li>Database</li>
+</ul>
+
+<b>DEFAULT_SEDE: </b>
 <ol>
 <li>Allende </li>
 <li>Campeche</li>
@@ -29,4 +32,11 @@ DEFAULT_SEDE:
 Correr los siguientes comandos:
 
 <b>php:artisan migrate</b> <br/>
-<b>php:artisan db:seed</b>
+<b>php:artisan db:seed</b> <br/>
+<b>composer install</b> <br/>
+
+
+<h2>Usuario Por defecto: </h2>
+Defaul email:<b>admin@cectijuana.com<b/> <br/>
+Default Password:<b>P@ssw0rd<b/><br/>
+
